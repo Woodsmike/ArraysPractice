@@ -96,6 +96,41 @@ namespace ArraysPractice
             //Array.Reverse(palindromeNumbers);
             //Console.WriteLine(palindromeNumbers[0]);
 
+            //Sort
+            //will sort numbers in an array from lowest to highest
+            //Will sort char's and strings in alphabetical order a-z
+
+            //string[] powerRangers = { "Green", "Yellow", "Pink", "Red", "Black" };
+            //Array.Sort(powerRangers);
+            //Console.WriteLine(powerRangers[0]);
+
+            string[] firstNames = { "Mike", "Shawn", "Hope", "Iris", "Bob" };
+            Console.WriteLine(firstNames[2]);
+
+            int[] luckyNumbers = { 7, 77, 777, 3, 7, 333, 77, 1, 23, 777, 3, 1, 23 };
+            Console.WriteLine(luckyNumbers[luckyNumbers.Length - 3]);
+
+            char[] alphaLetters = { 'a', 'g', 's', 't', 'c', 'd', 'f' };
+            Console.WriteLine(alphaLetters[0]);
+            Array.Reverse(alphaLetters);
+            Console.WriteLine(alphaLetters[0]);
+
+            string[] studentNames = { "Mike", "Shawn", "Hope", "Iris", "Bob" };
+            Array.Sort(studentNames);
+            Console.WriteLine(studentNames[0]);
+            Array.Reverse(studentNames);
+            Console.WriteLine(studentNames[0]);
+
+            int[] favNumbers = { 7, 77, 777, 3, 7, 333, 75, 1, 23, 13 };
+            Array.Sort(favNumbers);
+            Console.WriteLine(favNumbers[0]);
+            Array.Reverse(favNumbers);
+            Console.WriteLine(favNumbers[0]);
+
+
+
+            
+
         }
     }
 }
