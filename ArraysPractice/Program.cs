@@ -66,6 +66,36 @@ namespace ArraysPractice
             //ageOfStudentsInClass[0] = int.Parse(Console.ReadLine());
             //Console.WriteLine("The age of the student in the first seat is " + ageOfStudentsInClass[0] +".");
 
+            //string[] restaurantsInMall = { "Subway", "Saki", "Dunkin Donuts",
+            //    "Red Lobster", "Chick Fil-A" };
+            //Console.WriteLine(restaurantsInMall.Length);
+
+            //char array of letters in your middle name
+            //print the number of char's to console
+            //char[] middleName = { 'M', 'i', 'k', 'e' };
+            //Console.WriteLine(middleName.Length);
+
+            //Declare and initialize a string property.
+            //Using the length property, print the second to last element in the array
+            //property does not need () at the end
+
+            //string[] last = { "my", "last", "chance", "try" };
+            //int numLast = last.Length;
+            //Console.WriteLine(last[last.Length - 2]);
+
+            //index of is a method used to search an array for a specified value
+            //and returns the index position of the first matching value found.
+            //int[] bestYearsEver = { 1985, 1999, 1991, 2000, 1985 };
+            //Console.WriteLine(Array.IndexOf(bestYearsEver, 1985));
+            //LastIndexOf is a method used to search an array for a specified
+            //value and returns the index position of the Last matching value found.
+            //Console.WriteLine(Array.LastIndexOf(bestYearsEver, 1985));
+
+            //Reverse method
+            //int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+            //Array.Reverse(palindromeNumbers);
+            //Console.WriteLine(palindromeNumbers[0]);
+
         }
     }
 }
