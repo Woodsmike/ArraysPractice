@@ -189,22 +189,31 @@ namespace ArraysPractice
             //element - 0 : 2
             //element - 1 : 5
             //element - 2 : 8
-            int[] arraySum = new int[100];
+            /*int[] arraySum = new int[100];
             int i, n, sum=0;
             Console.WriteLine("Read and print elements of an array to find the sum");
             Console.WriteLine("Input the number of elements in the array :");
-            n = Convert.ToInt32(Console.ReadLine());
+            n = int.Parse(Console.ReadLine());
             Console.WriteLine("Input {0} elements in the array :", n);
             for(i=0; i<n; i++)
             {
                 Console.Write("Element - {0} : ", i);
-                arraySum[i] = Convert.ToInt32(Console.ReadLine());
+                arraySum[i] = int.Parse(Console.ReadLine());
             }
             for(i=0; i<n; i++)
             {
                 sum += arraySum[i];
             }
-            Console.WriteLine("Sum of all the elements stored is : {0}", sum);
+            Console.WriteLine("Sum of all the elements stored is : {0}", sum);*/
+
+            //question 4
+            //Write a program in C# Sharp to copy the elements one array into another array.
+            //Input the number of elements to be stored in the array :3
+            //Input 3 elements in the array : 
+            //element - 0 : 15
+            //element - 1 : 10
+            //element - 2 : 12
+
 
         }
     }
