@@ -104,13 +104,13 @@ namespace ArraysPractice
             //Array.Sort(powerRangers);
             //Console.WriteLine(powerRangers[0]);
 
-            string[] firstNames = { "Mike", "Shawn", "Hope", "Iris", "Bob" };
-            Console.WriteLine(firstNames[2]);
+            //string[] firstNames = { "Mike", "Shawn", "Hope", "Iris", "Bob" };
+            //Console.WriteLine(firstNames[2]);
 
-            int[] luckyNumbers = { 7, 77, 777, 3, 7, 333, 77, 1, 23, 777, 3, 1, 23 };
-            Console.WriteLine(luckyNumbers[luckyNumbers.Length - 3]);
+            //int[] luckyNumbers = { 7, 77, 777, 3, 7, 333, 77, 1, 23, 777, 3, 1, 23 };
+            //Console.WriteLine(luckyNumbers[luckyNumbers.Length - 3]);
 
-            char[] alphaLetters = { 'a', 'g', 's', 't', 'c', 'd', 'f' };
+            /*char[] alphaLetters = { 'a', 'g', 's', 't', 'c', 'd', 'f' };
             Console.WriteLine(alphaLetters[0]);
             Array.Reverse(alphaLetters);
             Console.WriteLine(alphaLetters[0]);
@@ -125,11 +125,86 @@ namespace ArraysPractice
             Array.Sort(favNumbers);
             Console.WriteLine(favNumbers[0]);
             Array.Reverse(favNumbers);
-            Console.WriteLine(favNumbers[0]);
+            Console.WriteLine(favNumbers[0]);*/
 
+            //******Homework practice problems
 
+            //question 1
+            //Write a program in C# Sharp to store elements in an array and print it.
+            //Test Data: 
+            //Input 10 elements in the array: 
+            //element - 0 : 1
+            //element - 1 : 1
+            //element - 2 : 2
+            /*int[] tenNumbers = new int[] { 1, 1, 2, 3, 4, 5, 6, 7, 8, 9 }; //or 
+            int[] autoTenNumbers = new int[10];
+            int i;
+            Console.WriteLine("Read and Print elements of an array.");
+            Console.Write("----------------------------------\n");
 
-            
+            Console.WriteLine("Input 10 elements in the array : ");
+            for(i=0; i<10; i++)
+            {
+                Console.Write("element - {0} : ", i);
+                autoTenNumbers[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.WriteLine("Elements in array are : ");
+            for(i=0; i<10; i++)
+            {
+                Console.Write("{0} ", autoTenNumbers[i]);
+            }*/
+
+            //question 2
+            //Write a program in C# Sharp to read n number of values 
+            //in an array and display it in reverse order.
+            //Input the number of elements to store in the array :3
+            //Input 3 number of elements in the array : 
+            //element - 0 : 2
+            //element - 1 : 5
+            //element - 2 : 7
+            /*int[] arrayReverse = new int[3];
+            int intR;
+            Console.WriteLine("Read and print elements of an array, also in reverse");
+            for(intR=0; intR<3; intR++)
+            {
+                Console.Write("Element - {0} : ", intR);
+                arrayReverse[intR] = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.WriteLine("The values stored in the array are: {0}", intR);
+            for(intR=0; intR<3; intR++)
+            {
+                Console.Write("{0} ", arrayReverse[intR]);
+            }
+            Array.Reverse(arrayReverse);
+            Console.WriteLine("The values stored in the array in reverse are : ");
+            for(intR=0; intR<3; intR++)
+            {
+                Console.Write("{0} ", arrayReverse[intR]);
+            }*/
+
+            //question 3
+            //Write a program in C# Sharp to find the sum of all elements of the array.
+            //Input the number of elements to be stored in the array :3 
+            //Input 3 elements in the array : 
+            //element - 0 : 2
+            //element - 1 : 5
+            //element - 2 : 8
+            int[] arraySum = new int[100];
+            int i, n, sum=0;
+            Console.WriteLine("Read and print elements of an array to find the sum");
+            Console.WriteLine("Input the number of elements in the array :");
+            n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Input {0} elements in the array :", n);
+            for(i=0; i<n; i++)
+            {
+                Console.Write("Element - {0} : ", i);
+                arraySum[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            for(i=0; i<n; i++)
+            {
+                sum += arraySum[i];
+            }
+            Console.WriteLine("Sum of all the elements stored is : {0}", sum);
 
         }
     }
